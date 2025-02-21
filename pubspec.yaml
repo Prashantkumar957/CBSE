@@ -1,0 +1,54 @@
+name: cbse
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  change_app_package_name: ^1.4.0
+  path_provider: ^2.1.5
+  syncfusion_flutter_pdfviewer: ^28.2.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+    android: "launcher_icon"
+    ios: true
+    image_path: "assets/images/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/icon.png
+    - assets/pdf1.pdf
+    - assets/pdf2.pdf
+    - assets/pdf3.pdf
+    - assets/pdf4.pdf
+    - assets/pdf5.pdf
+    - assets/pdf6.pdf
+    - assets/pdf7.pdf
+    - assets/pdf8.pdf
+    - assets/pdf9.pdf
+    - assets/pdf10.pdf
+    - assets/pdf11.pdf
+    - assets/pdf12.pdf
+    - assets/pdf13.pdf
+    - assets/pdf14.pdf
+    - assets/pdf15.pdf
+    - assets/clogo.jpg
+
+
+
